@@ -29,19 +29,6 @@
   </style>
 
   <body>
-    <div id="theme-btn" class="far fa-moon"></div>
-    <script>
-    const themeBtn = document.getElementById("theme-btn");
-    themeBtn.onclick = () => {
-      themeBtn.classList.toggle("fa-sun");
-      if (themeBtn.classList.contains("fa-sun")) {
-        document.body.classList.add("changeTheme");
-      } else {
-        document.body.classList.remove("changeTheme");
-      }
-    }
-    </script>
-
     <nav>
       <div class="nav__content">
         <div class="logo"><a href="#">Jakub Koral</a></div>
@@ -79,5 +66,17 @@
         </div>
       </div>
     </section>
+    <div id="theme-btn" class="far fa-moon"></div>
+    <script>
+    const themeBtn = document.getElementById("theme-btn");
+    themeBtn.onclick = () => {
+      themeBtn.classList.toggle("fa-sun");
+      if (themeBtn.classList.contains("fa-sun")) {
+        document.body.classList.add("changeTheme");
+      } else {
+        document.body.classList.remove("changeTheme");
+      }
+    }
+    </script>
   </body>
 </html>
