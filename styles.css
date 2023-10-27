@@ -217,15 +217,3 @@ ul li a:hover {
     margin: auto;
   }
 }
-#theme-btn {
-  font-size: 1.5rem;
-  cursor: pointer;
-  color: #596AFF;
-}
-#theme-btn:hover {
-  color: #BB86FC;
-}
-.changeTheme {
-  background: #1D1E22;
-  color: #eee;
-}
